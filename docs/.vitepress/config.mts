@@ -39,6 +39,9 @@ export default defineConfig({
       lang: "pt-BR",
       link: "/pt/",
       themeConfig: {
+        outline: {
+          label: "Nesta página",
+        },
         nav: [
           { text: "Home", link: "/pt/" },
           { text: "Guias", link: "/pt/guides" },
